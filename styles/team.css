@@ -32,12 +32,46 @@ padding: 0px 0px 0px 314px;
 
 
 
-p.resizeimage img { width: 100％; }
-#top-img{
-  width: 1010px;
-  height: 300px;
 
+
+
+
+.top-img img{
+position: relative;
+width: 100%;
+height:auto;
 }
 
+.top-img h1{
+position: absolute;
+font-size: 500%; 
+text-align: center;
+top: 50%;
+left:  25%;
+color: white;
+}
+
+.top-img p{
+position: absolute;
+font-size: 200%; 
+top: 65%;
+left:  42%;
+width: 150px;
+color: white;
+}
+
+
+
+.box h1{
+font-size: 500%; 
+text-align: center;
+padding: 0% 0% 0% 0%;
+}
+
+.box p{
+font-size: 300%; 
+text-align: center;
+padding: 0% 0% 20% 0%;
+}
 
 
