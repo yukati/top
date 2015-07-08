@@ -1,8 +1,10 @@
-<html>
+<!DOCTYPE html>
+<html lang="ja">
 
 <head>
-
+   <meta charset="utf-8">
 	<link rel="stylesheet" href="styles/cando.css" type="text/css">
+   <script type="text/javascript" src="confirm.js"></script>
 
 
 
@@ -109,6 +111,53 @@ div.tab p { margin: 0.5em; }
 </script>
  
 <!-- タブメニュー実装　HTML文 -->
+
+
+
+<!-- フォーム -->
+
+
+<h2>お問い合わせフォーム</h2>
+
+<form name="sendmail" method="POST" action="mailto:bwp.worldpeace@gmail.comsubject=index-bwp" onsubmit="addtitle()">
+
+<table class="mailform">
+<tbody>
+<tr>
+<th>法人名</th>
+<td><input class="validate required" type="text" name="company_name" value="" /></td>
+</tr>
+<tr>
+<th>法人名(ふりがな)</th>
+<td><input class="validate required kana" type="text" name="company_name_kana" value="" /></td>
+</tr>
+<tr>
+<th>ご担当者名</th>
+<td><input class="validate required" type="text" name="name" value="" /></td>
+</tr>
+<tr>
+<th>ご担当者名(ふりがな)</th>
+<td><input class="validate required kana" type="text" name="name_kana" value="" /></td>
+</tr>
+<tr>
+<th>メールアドレス</th>
+<td><input class="validate required mail" type="text" name="mail" value="" /></td>
+</tr>
+<tr>
+<th>ご依頼内容</th>
+<td><textarea class="validate required" name="body" rows="6"></textarea></td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center; margin-top: 15px;"><input type="submit" name="confirm" value="確認" /></div>
+</form>
+
+
+
+
+
+
+
 
 </body>
 
