@@ -298,24 +298,53 @@ input[type="radio"] {
   100% { transform: translateX(0); }
 }
 
-footer{
-font-family: "futura-pt",sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-background: #424242;
-color: #fff;
-position: relative;
-overflow: hidden;
-padding: 0px 0px 0px 8px;
-margin-top: -197px;
+
+
+
+#section-vision-intro{
+  padding: 200px 0px;
+  color: #797979;
+  background: #111111;
 }
+
+
+#section-vision-intro h1 {
+  height: 100px;
+  text-align: center;
+  color: white;
+  font-size: 80px;
+}
+
+
+.active {
+  height: 50px;
+  width: 250px;
+  text-align: center;
+  color: white;
+  background: #740700;
+  border-radius: 4px 4px 4px 4px;
+  padding: 10px 0px;
+  margin: 0px 0px 0px 500px;
+}
+
+.active h2 {
+  padding: 5px 0px;
+  font-size: 140%;
+}
+
+.active p {
+  padding: 5px 0px;
+  font-size: 50%;
+}
+
+
+
+
+
 
 .container-fluid {
 margin-right: auto;
 margin-left: auto;
-padding-left: 15px;
-padding-right: 15px;
 }
 
 .row {
@@ -324,17 +353,17 @@ margin:0px auto;
 
 a:link.link1{
   display:block;
-  width:300px;
+  width:337px;
   height:250px;
-  background-image:url('africa0.jpg');
+  background-image:url("../images/africa0.jpg");
   text-indent:-10000px;
   list-style:none;float: left;
 }
 a:hover.link1{
   display:block;
-  width:300px;
+  width:337px;
   height:250px;
-  background-image:url('africa1.jpg');
+  background-image:url("../images/africa1.jpg");
   text-indent:-10000px;
   list-style:none;
   float: left;
@@ -342,18 +371,18 @@ a:hover.link1{
 
 a:link.link2{
   display:block;
-  width:300px;
+  width:337px;
   height:250px;
-  background-image:url('africa0.jpg');
+  background-image:url("../images/africa0.jpg");
   text-indent:-10000px;
   list-style:none;
   float: left;
 }
 a:hover.link2{
   display:block;
-  width:300px;
+  width:337px;
   height:250px;
-  background-image:url('africa1.jpg');
+  background-image:url("../images/africa1.jpg");
   text-indent:-10000px;
   list-style:none;
   float: left;
@@ -361,17 +390,17 @@ a:hover.link2{
 
 a:link.link3{
   display:block;
-  width:350px;
+  width:337px;
   height:250px;
-  background-image:url('africa0.jpg');
+  background-image:url("../images/africa0.jpg");
   text-indent:-10000px;
   list-style:none;float: left;
 }
 a:hover.link3{
   display:block;
-  width:350px;
+  width:337px;
   height:250px;
-  background-image:url('africa1.jpg');
+  background-image:url("../images/africa1.jpg");
   text-indent:-10000px;
   list-style:none;
   float: left;
@@ -379,18 +408,376 @@ a:hover.link3{
 
 a:link.link4{
   display:block;
-  width:350px;
+  width:337px;
   height:250px;
-  background-image:url('africa0.jpg');
+  background-image:url("../images/africa0.jpg");
   text-indent:-10000px;
   list-style:none;float: left;
 }
 a:hover.link4{
   display:block;
-  width:350px;
+  width:337px;
   height:250px;
-  background-image:url('africa1.jpg');
+  background-image:url("../images/africa1.jpg");
   text-indent:-10000px;
   list-style:none;
   float: left;
+}
+a:link.link5{
+  display:block;
+  width:337px;
+  height:250px;
+  background-image:url("../images/africa0.jpg");
+  text-indent:-10000px;
+  list-style:none;float: left;
+}
+a:hover.link5{
+  display:block;
+  width:337px;
+  height:250px;
+  background-image:url("../images/africa1.jpg");
+  text-indent:-10000px;
+  list-style:none;
+  float: left;
+}
+a:link.link6{
+  display:block;
+  width:337px;
+  height:250px;
+  background-image:url("../images/africa0.jpg");
+  text-indent:-10000px;
+  list-style:none;float: left;
+}
+a:hover.link6{
+  display:block;
+  width:337px;
+  height:250px;
+  background-image:url("../images/africa1.jpg");
+  text-indent:-10000px;
+  list-style:none;
+  float: left;
+}
+a:link.link7{
+  display:block;
+  width:337px;
+  height:250px;
+  background-image:url("../images/africa0.jpg");
+  text-indent:-10000px;
+  list-style:none;float: left;
+}
+a:hover.link7{
+  display:block;
+  width:337px;
+  height:250px;
+  background-image:url("../images/africa1.jpg");
+  text-indent:-10000px;
+  list-style:none;
+  float: left;
+}
+a:link.link8{
+  display:block;
+  width:337px;
+  height:250px;
+  background-image:url("../images/africa0.jpg");
+  text-indent:-10000px;
+  list-style:none;float: left;
+}
+a:hover.link8{
+  display:block;
+  width:337px;
+  height:250px;
+  background-image:url("../images/africa1.jpg");
+  text-indent:-10000px;
+  list-style:none;
+  float: left;
+}
+
+
+
+
+
+
+
+
+#section-member{
+  width: 100%;
+  height: 650px;
+  bottom: -10%;
+  z-index: 0;
+  float: left;
+  background: #EDEDED;
+  background-image: url("../images/luis1.png");
+  background-repeat: no-repeat;
+  background-position:-10pt 0pt;
+  background-size:900px 700px;
+  position: relative;
+}
+
+
+.section-member-right{
+  float: right;
+}
+
+.section-member-right h1{
+  font-size: 300%;
+  float: left;
+  padding: 15% 0% 5% 0%;
+}
+
+.section-member-right p{
+  font-size: 120%;
+  float: left;
+  padding: 0% 0% 5% 0%;
+}
+
+.section-member-right h2{
+  float: right;
+  font-size: 200%;
+  margin: 0% 0% 0% 0%;
+  position: absolute;
+  bottom: 150px;
+  right: 100px
+}
+
+
+.member {
+  height: 50px;
+  width: 250px;
+  text-align: center;
+  color: white;
+  background: #740700;
+  border-radius: 4px 4px 4px 4px;
+  padding: 10px 0px;
+  margin: 550px 0px 0px 500px;
+}
+
+.member h2 {
+  padding: 5px 0px;
+  font-size: 140%;
+}
+
+.member p {
+  padding: 5px 0px;
+  font-size: 50%;
+}
+
+
+
+
+#section-join-bwp {
+  padding: 50px 0px 10px 0px;
+  background: white;
+  width: 100%;
+  height: 650px;
+  bottom: -10%;
+  z-index: 0;
+  float: left;
+}
+
+
+#section-join-bwp h1 {
+  height: 60px;
+  text-align: center;
+  font-size: 80px;
+  padding: 40px 0px;
+}
+
+
+#section-join-bwp img {
+  width: 20%;
+  height: 40%;
+  float: left;
+  padding: 40px 89px;
+}
+
+
+#section-join-bwp h2 {
+  height: 50px;
+  width: 20%;
+  text-align: center;
+  float: left;
+  font-size: 40px;
+  padding: 40px 89px;
+
+}
+
+
+
+
+
+#section-related{
+  background: white;
+  width: 100%;
+  bottom: -10%;
+  z-index: 0;
+  float: left;
+}
+
+.black {
+  float: left;
+  background: black;
+  position: relative; 
+}
+
+.logo1 img {
+  width: 11%;
+  height: 40%;
+  padding: 28px 33px;
+  float: right;
+}
+
+.logo2 img {
+  width: 11%;
+  height: 40%;
+  float: right;
+  padding: 28px 33px;
+  float: right;
+}
+
+.logo3 img {
+  width: 11%;
+  height: 40%;
+  float: right;
+  padding: 28px 33px;
+  float: right;
+}
+
+.box1 {
+  text-align: center;
+  width: 50%;
+  position: absolute;
+  height: 65%;
+  background: white;
+}
+
+.box1 h1 {
+  text-align: center;
+  font-size: 60px;
+  height: 115px;
+  margin: 145px 0px 0px 0px;
+}
+
+.related {
+  height: 75px;
+  width: 50%;
+  text-align: center;
+  color: white;
+  background: #740700;
+  border-radius: 4px 4px 4px 4px;
+  padding: 5px 0px;
+  margin: 0px 0px 0px 145px;
+}
+
+.related h2 {
+  font-size: 140%;
+  height: 10px;
+}
+
+.related p {
+  font-size: 50%;
+}
+
+
+
+
+
+#section-contact{
+  padding: 200px 0px;
+  background: white;
+  width: 100%;
+  bottom: -10%;
+  z-index: 0;
+  float: left;
+}
+
+
+#section-contact h1 {
+  height: 100px;
+  text-align: center;
+  font-size: 80px;
+}
+
+
+.contact {
+  height: 50px;
+  width: 350px;
+  text-align: center;
+  color: white;
+  background: #740700;
+  border-radius: 4px 4px 4px 4px;
+  padding: 10px 0px;
+  margin: 0px 0px 0px 500px;
+}
+
+.contact h2 {
+  padding: 5px 0px;
+  font-size: 140%;
+}
+
+.contact p {
+  padding: 5px 0px;
+  font-size: 50%;
+}
+
+
+
+
+
+
+
+#footer{
+  padding: 20px;
+  bottom: 0;
+  color: #797979;
+  background: #161616;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.footer-left{
+  float: left;
+}
+
+.footer-left img{
+  width: 120px;
+  height:120px;
+  bottom: 0;
+  left: 37%;
+  float: left;
+}
+
+.footer-left h1{
+  float: left;
+  padding: 50px 17px 50px 20px;
+  font-size: 200%;
+}
+
+.footer-left h2{
+  float: left;
+  padding: 30px 17px 50px 100px;
+  font-size: 100%;
+}
+
+.footer-left nav{
+  float: left;
+  padding: 30px 17px 0px 10px;
+  font-size: 80%;
+  color: #797979;
+}
+
+
+
+.footer-right{
+  float: right;
+  left: 37%;
+}
+
+.footer-right h3{
+  float: right;
+  padding: 100px 17px 0px 10px;
+  left: 37%;
+  font-size: 150%;
 }
