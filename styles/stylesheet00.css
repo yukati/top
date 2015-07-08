@@ -361,6 +361,7 @@ input[type="radio"] {
   background-color: #333;
   border-color: #740700;
   color: #fff;
+  text-decoration: none;
 }
 .button::before,
 .button::after {
