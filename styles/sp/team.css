@@ -1,0 +1,77 @@
+
+
+body{
+    font: 14px/22px "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Helvetica,Arial,Sans-Serif;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -o-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+
+a{ color: #247bb0; text-decoration: none;}
+a:hover{ color: #79b4d8;text-decoration:underline; }
+.clearfix{ clear: both; line-height: 0}
+
+
+
+ #header{
+background: rgba(51,51,51,0.5);
+position: fixed;
+z-index: 1;
+}
+
+ #menu{
+height: 102px;
+margin:0px auto; /* 上下の margin は 0px、左右は auto に設定*/
+width:1349px;
+padding: 0px 0px 0px 314px;
+}
+
+
+
+
+
+
+
+.top-img img{
+position: relative;
+width: 100%;
+height:auto;
+}
+
+.top-img h1{
+position: absolute;
+font-size: 500%; 
+text-align: center;
+top: 50%;
+left:  25%;
+color: white;
+}
+
+.top-img p{
+position: absolute;
+font-size: 200%; 
+top: 65%;
+left:  42%;
+width: 150px;
+color: white;
+}
+
+
+
+.box h1{
+font-size: 500%; 
+text-align: center;
+padding: 0% 0% 0% 0%;
+}
+
+.box p{
+font-size: 300%; 
+text-align: center;
+padding: 0% 0% 20% 0%;
+}
+
+
