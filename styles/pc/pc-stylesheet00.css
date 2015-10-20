@@ -66,18 +66,78 @@ a:hover{ color: #79b4d8;text-decoration:underline; }
 
 
 #header{
-background: rgba(51,51,51,0.5);
+background: rgba(21,21,21,0.8);
+width:100%;
 position: fixed;
 z-index: 1;
 }
 
 
+
+
 #menu{
-height: 102px;
-margin:0px auto; /* 上下の margin は 0px、左右は auto に設定*/
-width:1349px;
-padding: 0px 0px 0px 34px;
+height: 0%;
+
+
 }
+
+
+
+
+
+
+/* --- ナビゲーションバー --- */
+div.nav {
+text-align: center;
+font-size: 100%;
+}
+
+/* --- メニューエリア --- */
+div.nav ul.nl {
+padding: 0;
+text-align: center;
+}
+
+/* --- メニュー項目 --- */
+div.nav ul.nl li {
+width: 15%; /* 項目の幅 */
+float: left;
+}
+
+/* --- リンク --- */
+div.nav ul.nl li a {
+display: block;
+position: relative; /* IE6用 */
+padding: 9px 2px; /* リンクエリアのパディング（上下、左右） */
+font-weight: bold; /* 太字 */
+}
+/* --- リンクテキストの色 --- */
+div.nav ul.nl li a:link {
+color: #ffffff;
+}
+div.nav ul.nl li a:visited {
+color: #ffffff;
+}
+div.nav ul.nl li a:hover {
+color: #ff8000;
+}
+div.nav ul.nl li a:active {
+color: #ff8000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #wrapper {
@@ -316,18 +376,29 @@ input[type="radio"] {
 
 
 #section-vision-intro{
-  padding: 200px 0px;
+  padding: 100px 0px 0px 0px;
   color: #797979;
   background: #111111;
 }
 
 
 #section-vision-intro h1 {
-  height: 100px;
+  height: 10px;
   text-align: center;
   color: white;
   font-size: 80px;
 }
+
+
+#section-vision-intro p {
+  height: 150px;
+  text-align: center;
+  color: #D3D3D3;
+  font-size: 30px;
+  line-height: 150%;
+}
+
+
 
 
 /*  ボタン開始  */
@@ -337,10 +408,10 @@ input[type="radio"] {
 .button {
   display: inline-block;
   width: 200px;
-  height: 54px;
+  height: 60px;
   text-align: center;
   text-decoration: none;
-  line-height: 54px;
+  line-height: 74px;
   outline: none;
 }
 .button::before,
@@ -369,7 +440,7 @@ input[type="radio"] {
   background-color: #740700;
   border: 2px solid #740700;
   color: #fff;
-  line-height: 50px;
+  line-height: 30px;
 }
 .button:hover {
   background-color: #333;
@@ -404,14 +475,12 @@ input[type="radio"] {
 /*  ボタン終わり  */
  
 .active {
-  height: 50px;
-  width: 250px;
   text-align: center;
   color: white;
  /*  background: #740700;*/
   border-radius: 4px 4px 4px 4px;
-  padding: 10px 0px;
-  margin: 0px 0px 0px 500px;
+  padding: 150px 0px;
+
 }
 
 
@@ -441,18 +510,15 @@ margin:0px auto;
 
 a:link.link1{
   display:block;
-  width:337px;
-  height:250px;
-  background-image:url("../images/africa0.jpg");
-  text-indent:-10000px;
-  list-style:none;float: left;
+  width:40007px;
+  height:300px;
+  float: left;
 }
 a:hover.link1{
   display:block;
-  width:337px;
+  width:37px;
   height:250px;
-  background-image:url("../images/africa1.jpg");
-  text-indent:-10000px;
+  background:url('../top/images/2-1busi.jpg');
   list-style:none;
   float: left;
 }
@@ -461,7 +527,7 @@ a:link.link2{
   display:block;
   width:337px;
   height:250px;
-  background-image:url("../images/africa0.jpg");
+  background-image:url("africa0.jpg");
   text-indent:-10000px;
   list-style:none;
   float: left;
@@ -579,7 +645,6 @@ a:hover.link8{
   list-style:none;
   float: left;
 }
-
 
 
 
