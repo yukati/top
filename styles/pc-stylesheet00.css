@@ -98,6 +98,13 @@ padding: 0;
 text-align: center;
 }
 
+div.nav ul.nl img{
+  padding: 0px 100px 0px 80px;
+width: 90px;
+height: 90px;
+float: left;
+}
+
 /* --- メニュー項目 --- */
 div.nav ul.nl li {
 width: 15%; /* 項目の幅 */
@@ -401,9 +408,8 @@ input[type="radio"] {
 
 
 
+
 /*  ボタン開始  */
-
-
 
 .button {
   display: inline-block;
@@ -469,9 +475,6 @@ input[type="radio"] {
 
 
 
-
-
-
 /*  ボタン終わり  */
  
 .active {
@@ -508,26 +511,17 @@ margin-left: auto;
 margin:0px auto;
 }
 
-a:link.link1{
-  display:block;
-  width:40007px;
-  height:300px;
-  float: left;
-}
-a:hover.link1{
-  display:block;
-  width:37px;
-  height:250px;
-  background:url('../top/images/2-1busi.jpg');
-  list-style:none;
-  float: left;
-}
+
+
+
+
+
 
 a:link.link2{
   display:block;
   width:337px;
   height:250px;
-  background-image:url("africa0.jpg");
+  background-image:url("../images/africa0.jpg");
   text-indent:-10000px;
   list-style:none;
   float: left;
@@ -628,6 +622,105 @@ a:hover.link7{
   list-style:none;
   float: left;
 }
+
+
+
+
+/*  ボタン開始  */
+
+.button-2 {
+  display: inline-block;
+  width: 674px;
+  height: 250px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 74px;
+  outline: none;
+}
+.button-2::before,
+.button-2::after {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  content: '';
+}
+.button-2,
+.button-2::before,
+.button-2::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+
+
+
+.button-2 {
+  position: relative;
+  z-index: 0;
+  background-color: #740700;
+  border: 2px solid #740700;
+  color: #fff;
+  line-height: 30px;
+}
+.button-2:hover {
+  background-color: #333;
+  border-color: #740700;
+  color: #fff;
+  text-decoration: none;
+}
+.button-2::before,
+.button-2::after {
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #740700;
+}
+.button-2::before {
+  right: 0;
+}
+.button-2::after {
+  left: 0;
+}
+.button-2:hover::before,
+.button-2:hover::after {
+  width: 0;
+  background-color: #740700;
+}
+
+
+
+/*  ボタン終わり  */
+ 
+.active-2 {
+  color: white;
+ /*  background: #740700;*/
+  border-radius: 4px 4px 4px 4px;
+  list-style:none;float: left;
+}
+
+.active-2 img{
+  margin: 50px 20px;
+  width: 150px;
+  height: 150px;
+  float: left;
+} 
+
+.active-2 h2 {
+  padding: -10px 0px;
+  font-size: 250%;
+}
+
+.active-2 p {
+  padding: 5px 0px;
+  font-size: 150%;
+}
+
+
+
+
 a:link.link8{
   display:block;
   width:337px;
@@ -652,67 +745,69 @@ a:hover.link8{
 
 
 
+
+
+
+
+
+
 #section-member{
+  max-width: 100%;
   width: 100%;
-  height: 650px;
   bottom: -10%;
   z-index: 0;
-  float: left;
-  background: #EDEDED;
-  background-image: url("../images/luis1.png");
+  float: right;
+  background: #222;
+  background-image: url("../images/luis-3.png");
   background-repeat: no-repeat;
-  background-position:-10pt 0pt;
-  background-size:900px 700px;
+  background-position:0pt 0pt;
+  background-size:100%;
   position: relative;
 }
 
-
-.section-member-right{
-  float: right;
+.section-member-left{
+    max-width: 100%;
+  float: left;
+   margin: 100px 0px 0px 80px;
+   color: #fff;
+ 
 }
 
-.section-member-right h1{
+
+.section-member-left h1{
   font-size: 300%;
   float: left;
   padding: 15% 0% 5% 0%;
 }
 
-.section-member-right p{
+.section-member-left p{
   font-size: 120%;
   float: left;
-  padding: 0% 0% 5% 0%;
+  padding: 5% 0% 5% 0%;
 }
 
-.section-member-right h2{
-  float: right;
-  font-size: 200%;
-  margin: 0% 0% 0% 0%;
-  position: absolute;
+.section-member-left h2{
+  float: left;
+  font-size: 300%;
+  margin: 0px 0px 0px 0px;
   bottom: 150px;
   right: 100px
 }
 
 
+.section-member-left h3{
+  float: left;
+  font-size: 200%;
+  margin: 45% -60% 0% 25%;
+  bottom: 150px;
+  right: 100px
+}
+
 .member {
-  height: 50px;
-  width: 250px;
-  text-align: center;
-  color: white;
-  background: #740700;
-  border-radius: 4px 4px 4px 4px;
   padding: 10px 0px;
-  margin: 550px 0px 0px 500px;
+  margin: 250px 500px -162px 100px;
 }
 
-.member h2 {
-  padding: 5px 0px;
-  font-size: 140%;
-}
-
-.member p {
-  padding: 5px 0px;
-  font-size: 50%;
-}
 
 
 
