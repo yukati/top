@@ -134,6 +134,120 @@ text-align: center;
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* -----------データー追加 選択----------------------------------------------------- */
+
+
+div.tabbox {
+  margin: 15px 0px 500px 0px;
+  padding: 0px; 
+  height:200px;
+}
+
+.tabbox-button{
+  padding: 0 0 0 0;
+  
+}
+
+/* ▼ タブ部分のマージンとパディング領域を設定 */
+p.tabs { 
+  margin: 0px;
+  padding: 0px; }
+
+
+p.tabs a {
+   /* ▼ リンクをタブのように見せる */
+   display: block; width: 100px; float: left;
+   margin: 0px 3px 0px 0px; padding: 3px;
+   text-align: center;
+   font-size:12px;
+}
+/* ▼ タブごとの配色設定 */
+p.tabs a.tab1 {text-decoration:none; background-color:#fafafa;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;border-top: 3px solid rgba(170, 0, 0, 0.85);  color: #666; font-weight:600;}
+p.tabs a.tab2 {text-decoration:none; background-color:#fafafa;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;border-top: 3px solid rgba(0, 170, 0, 0.85);  color: #666; font-weight:600;}
+p.tabs a.tab3 {text-decoration:none; background-color:#fafafa;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;border-top: 3px solid rgba(0, 0, 170, 0.85);  color: #666; font-weight:600;}
+p.tabs a.tab4 {text-decoration:none; background-color:#fafafa;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;border-top: 3px solid rgba(0, 0, 170, 0.85);  color: #666; font-weight:600;}
+
+p.tabs a:hover {opacity:0.7;filter:alpha(opacity=70);}
+
+/* ▼ タブ中身のボックス */
+div.tab {
+   /* ▼ ボックス共通の装飾 */
+    height: auto;  clear: left;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+}
+/* ▼ 各ボックスの配色設定 */
+div#tab1 { border: 2px solid #DDD; background-color: #fbfbfb; }
+div#tab2 { border: 2px solid #DDD; background-color: #fbfbfb; }
+div#tab3 { border: 2px solid #DDD; background-color: #fbfbfb; }
+div#tab4 { border: 2px solid #DDD; background-color: #fbfbfb; }
+
+div.tab p { margin: 0.5em; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----アイコン部分のトップページ（学生バージョン）
+
+
+
+{
+  background-collor :変えるべき;
+  残りは、htmlの方を変更するように
+}
+
+＋で企業よう、一般用、団体用を作るときもCSS別々で！
+
+-------*/
+
+
+.icon-title-student{
+  background-color: #3d9fa3;
+  text-align: center;
+  padding: 10px 0px 20px 0px;
+}
+
+.icon-title-student h3{
+  font-size: 40px;
+  line-height: 1.5em;
+}
+
+.icon-title-student p{
+  font-size: 20px;
+  line-height: 1.3em;
+}
+
+
+
+
+
 #section-action{
   background-color: #333;
   -webkit-transition: all 0.3s ease;
@@ -156,7 +270,7 @@ text-align: center;
 
 #section-action img{
 position: relative;
-width: 20%;
+width: 250px;
 float: right;
 }
 
@@ -182,14 +296,144 @@ width: 51%;
 
 
 
+#section-action-2{
+  background-color: #333;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+   }
+#section-action-2:hover {
+    background-color: #999;
+    }
+
+
+
+#section-action-2{
+  width: 100%;
+  height: 151px;
+  border-bottom: #3ABCAD 10px solid;
+}
+
+
+#section-action-2 img{
+position: relative;
+width: 250px;
+float: right;
+}
+
+#section-action-2 h1{
+font-size: 380%;
+padding: 68px 0px 0px 65px;
+height: 25%;
+width: 25%;
+}
+
+#section-action-2 p{
+font-size: 103%;
+margin: -59px 0px 0px 378px;
+float: left;
+width: 51%;
+}
+
+
+
+
+
+#section-action-3{
+  background-color: #333;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+   }
+#section-action-3:hover {
+    background-color: #999;
+    }
+
+
+
+#section-action-3{
+  width: 100%;
+  height: 151px;
+  border-bottom: #3ABCAD 10px solid;
+}
+
+
+#section-action-3 img{
+position: relative;
+width: 250px;
+float: right;
+}
+
+#section-action-3 h1{
+font-size: 380%;
+padding: 68px 0px 0px 65px;
+height: 25%;
+width: 25%;
+}
+
+#section-action-3 p{
+font-size: 103%;
+margin: -59px 0px 0px 378px;
+float: left;
+width: 51%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 #section-contact{
-  padding: 200px 0px;
-  background: white;
+  padding: 100px 0px;
   width: 100%;
   bottom: -10%;
   z-index: 0;
