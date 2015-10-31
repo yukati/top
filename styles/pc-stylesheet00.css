@@ -191,7 +191,6 @@ input[type="radio"] {
   -moz-box-sizing: border-box;
   max-width: 100%;
   height: auto;
-  padding: 0 50px;
   vertical-align: middle;
 }
  
