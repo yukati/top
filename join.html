@@ -87,10 +87,15 @@ function ChangeTab(tabname) {
 <div class="tabbox">
   <div class="tabbox-button"> 
     <p class="tabs">
-      <a href="#tab1" class="tab1" onclick="ChangeTab('tab1'); return false;">学生</a>
-      <a href="#tab2" class="tab2" onclick="ChangeTab('tab2'); return false;">団体</a>
-      <a href="#tab3" class="tab3" onclick="ChangeTab('tab3'); return false;">企業</a>
-      <a href="#tab4" class="tab4" onclick="ChangeTab('tab4'); return false;">一般</a>
+      <a href="#tab1" class="tab1" onclick="ChangeTab('tab1'); return false;">
+        <img src="images/icon-gakusei2.png" width="100" height="100" alt="BWPボタン1"><br>学生</a>
+      <a href="#tab2" class="tab2" onclick="ChangeTab('tab2'); return false;">
+        <img src="images/icon-dantai2.png" width="100" height="100" alt="BWPボタン1"><br>団体</a>
+      <a href="#tab3" class="tab3" onclick="ChangeTab('tab3'); return false;">
+       <img src="images/icon-bussines2.png" width="100" height="100" alt="BWPボタン1"><br>企業</a>
+      <a href="#tab4" class="tab4" onclick="ChangeTab('tab4'); return false;">
+       <img src="images/icon-ippann2.png" width="100" height="100" alt="BWPボタン1"><br>
+一般</a>
     </p>
   </div>
 
@@ -111,25 +116,27 @@ function ChangeTab(tabname) {
 
 
    <div id="tab1" class="tab">
-
     <!--　アイコンの画像完了していない　＋　CSSのカラー変更-->
-      <div class="icon-title-student">
-        <img>
-        <img border="1" src="images/icon-bussines1.png" width="150" height="200" alt="企業協力" title="企業にできる協力">
-        <h3>学生にできることは無限大</h3>
-        <p>自分の成長と共に世界の問題に取り組んでみませんか？<br>
+    <div class="selection-1">
+    <div class="icon-title-student">
+      <img>
+        <img border="1" src="images/icon-gakusei.png" width="150" height="150" alt="企業協力" title="企業にできる協力">
+          <h3>学生にできることは無限大</h3>
+          <p>自分の成長と共に世界の問題に取り組んでみませんか？<br>
           国際ボランティアは、苦しんでいる現状を解決するとためにまだ成し遂げられていない
           <br>国際問題の解決のため考え、協力し、解決に導くのが私たちの任務
-        </p>
-      </div>
+          </p>
+    </div>
 
 
 
      <section id="section-action">
        <img src="images/donated.png" alt="メンバーとして参加">
-   <h1>メンバーとして参加</h1>
-   <p>10プロジェクト以上存在する国際協力団体BWPに参加できます。
-    発信、協力、行動を軸に国際ボランティアから、ITから情報発信、幅広い企業や自治体と連携して国際協力に貢献できます。自分の都合にあわせ活動が行えるようにカリュクラムを組んでいるので負担なく活動に参加できます。</p>
+        <h1>メンバーとして参加</h1>
+          <p>10プロジェクト以上存在する国際協力団体BWPに参加できます。
+            発信、協力、行動を軸に国際ボランティアから、ITから情報発信、幅広い企業や自治体と連携して国際協力に貢献できます。
+            自分の都合にあわせ活動が行えるようにカリュクラムを組んでいるので負担なく活動に参加できます。
+          </p>
 </section>  
 
 <section id="section-action">
@@ -149,6 +156,7 @@ function ChangeTab(tabname) {
    <h1>広報サポーター</h1>
    <p>国際協力団体BWPは、より多くの人に活動を知っていただくために、広報は必須活動だと考えております。広報サポーターになってくれることで、私たちの活動の広報、イベントの告知の協力をしていただきます。スマートフォン1代から協力可能。</p>
 </section>
+</div>
 
 
 
@@ -179,8 +187,7 @@ function ChangeTab(tabname) {
     <h3>bwp.worldpeace@gmail.com</h3>
   </div>
 </div>
-   </div>
-
+</div>
 
 
 
@@ -197,9 +204,10 @@ function ChangeTab(tabname) {
 
 
     <!--　アイコンの画像完了していない　＋　CSSのカラー変更-->
-      <div class="icon-title-student">
+    <div class="selection-2">
+      <div class="icon-title-student-2">
         <img>
-        <img border="1" src="images/icon-bussines1.png" width="150" height="200" alt="企業協力" title="企業にできる協力">
+        <img border="1" src="images/icon-dantai.png" width="150" height="150" alt="企業協力" title="企業にできる協力">
         <h3>学生にできることは無限大</h3>
         <p>自分の成長と共に世界の問題に取り組んでみませんか？<br>
           国際ボランティアは、苦しんでいる現状を解決するとためにまだ成し遂げられていない
@@ -209,7 +217,7 @@ function ChangeTab(tabname) {
 
 
 
-      <section id="section-action-2">
+<section id="section-action-2">
    <img src="images/donated.png" alt="寄付をする">
    <h1>共同イベントの開催</h1>
    <p>国際協力団体BWPは、国際協力団体、環境に取り組む団体、又は取り組まない団体問わず共同開催にこだわりを持っております。共に開催することによってお互いの強みを生かし、よりイベントを拡大、効率的なイベントの開催を実現します。</p>
@@ -226,6 +234,7 @@ function ChangeTab(tabname) {
    <h1>共同広報</h1>
    <p>団体の規模により広報の限界はそれぞれあります。国際問題の解決のため同じ方向に向かう団体の広報協力は全面できに協力します。同時に広報協力をお願いしております。世界平和の実現のために一人でも多くの人に私たちの活動を伝えていきましょう。</p>
 </section>
+</div>
 
 <!-- 名前の変更編集必要-->
 
@@ -285,7 +294,8 @@ function ChangeTab(tabname) {
 
 
     <!--　アイコンの画像完了していない　＋　CSSのカラー変更-->
-      <div class="icon-title-student">
+    <div class="selection-3">
+      <div class="icon-title-student-3">
         <img>
         <img border="1" src="images/icon-bussines1.png" width="150" height="200" alt="企業協力" title="企業にできる協力">
         <h3>学生にできることは無限大</h3>
@@ -319,6 +329,7 @@ function ChangeTab(tabname) {
    <h1>技術協力</h1>
    <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
 </section>
+</div>
 
 
 <!-- 名前の変更編集必要-->
@@ -375,9 +386,10 @@ function ChangeTab(tabname) {
 
 
     <!--　アイコンの画像完了していない　＋　CSSのカラー変更-->
-      <div class="icon-title-student">
+    <div class="selection-4">
+      <div class="icon-title-student-4">
         <img>
-        <img border="1" src="images/icon-bussines1.png" width="150" height="200" alt="企業協力" title="企業にできる協力">
+        <img border="1" src="images/icon-ippann.png" width="150" height="150" alt="企業協力" title="企業にできる協力">
         <h3>学生にできることは無限大</h3>
         <p>自分の成長と共に世界の問題に取り組んでみませんか？<br>
           国際ボランティアは、苦しんでいる現状を解決するとためにまだ成し遂げられていない
@@ -386,34 +398,35 @@ function ChangeTab(tabname) {
       </div>
 
 
-      <section id="section-action">
+      <section id="section-action-4">
    <img src="images/donated.png" alt="寄付をする">
    <h1>寄付</h1>
    <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
 </section>  
 
-<section id="section-action">
+<section id="section-action-4">
    <img src="images/donated.png" alt="寄付をする">
    <h1>BWPクラブに入会</h1>
    <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
 </section>
 
-<section id="section-action">
+<section id="section-action-4">
    <img src="images/donated.png" alt="寄付をする">
    <h1>募金</h1>
    <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
 </section>
 
-<section id="section-action">
+<section id="section-action-4">
    <img src="images/donated.png" alt="寄付をする">
    <h1>会員になる</h1>
    <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
 </section>
-<section id="section-action">
+<section id="section-action-4">
    <img src="images/donated.png" alt="寄付をする">
    <h1>イベントに参加</h1>
    <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
 </section>
+</div>
 
 <!-- 名前の変更編集必要-->
 
@@ -453,6 +466,8 @@ function ChangeTab(tabname) {
    
    
 </div><!-- tabbox -->
+
+
  
 <!-- ページを開いた際の最初に表示されるタブの選択 -->
 <script type="text/javascript">
