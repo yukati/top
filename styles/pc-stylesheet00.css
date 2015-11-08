@@ -99,7 +99,7 @@ text-align: center;
 }
 
 div.nav ul.nl img{
-  padding: 0px 100px 0px 80px;
+padding: 0px 100px 15px 80px;
 width: 90px;
 height: 90px;
 float: left;
@@ -382,9 +382,9 @@ input[type="radio"] {
 
 
 #section-vision-intro{
-  padding: 100px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
   color: #797979;
-  background: #111111;
+  background: #2A2A2A;
 }
 
 
@@ -400,7 +400,7 @@ input[type="radio"] {
   height: 150px;
   text-align: center;
   color: #D3D3D3;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 150%;
 }
 
@@ -481,7 +481,7 @@ input[type="radio"] {
   color: white;
  /*  background: #740700;*/
   border-radius: 4px 4px 4px 4px;
-  padding: 150px 0px;
+  padding: 65px 0px;
 
 }
 
@@ -906,7 +906,7 @@ a:hover.link12{
   bottom: -10%;
   z-index: 0;
   float: right;
-  background: #222;
+  background: #000;
   background-image: url("../images/luis-3.png");
   background-repeat: no-repeat;
   background-position:0pt 0pt;
@@ -998,14 +998,14 @@ a:link.icon-student{
     height: 200px;
     margin: 0% 0% 0% 15%;
     background-image: url("../images/icon-gakusei.png");
+    text-indent: -10000px;
+    list-style: none;
     float: left;
     background-position: center center;
     background-size: cover;
   }
 
-  a:link.icon-student p{
-    width: 10px 0px 0px 0px;
-  }
+
 
 
 a:hover.icon-student{
