@@ -1,3 +1,18 @@
+/*===============================================
+●smart.css  画面の横幅が640pxまで
+===============================================*/
+@media screen and (max-width:640px){
+img{
+
+width /***/:auto;　
+}
+#container{
+width:100%;
+}
+～以下、画面の横幅が640pxまでの場合のスタイル記入～
+
+
+
 
 
 body{
@@ -62,14 +77,14 @@ color: white;
 
 
 
-.box h1{
-font-size: 500%; 
+.box h1{margin-bottom: 0;
+font-size: 150%; 
 text-align: center;
 padding: 0% 0% 0% 0%;
 }
 
-.box p{
-font-size: 300%; 
+.box p{margin-top: -3%;
+font-size: 100%; 
 text-align: center;
 padding: 0% 0% 20% 0%;
 }
