@@ -2,7 +2,8 @@
 
 body{
     font: 14px/22px "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Helvetica,Arial,Sans-Serif;
-    background-color: #fff;
+    background-color: #EEEEEE;
+    color: #686868; 
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -63,15 +64,520 @@ color: white;
 
 
 .box h1{
-font-size: 500%; 
+font-size: 400%; 
 text-align: center;
 padding: 0% 0% 0% 0%;
 }
 
 .box p{
-font-size: 300%; 
+font-size: 180%; 
 text-align: center;
-padding: 0% 0% 20% 0%;
+padding: 0% 0% 2% 0%;
+line-height: 120%;
 }
 
+
+
+
+
+
+
+
+
+
+
+.back {
+  background-color: #333;
+}
+
+
+
+#section-our-work{
+  background-color: #333;
+}
+
+
+.container-fluid {
+margin-right: auto;
+margin-left: auto;
+background-color: #333;
+}
+
+.row {
+margin:0px auto;
+
+}
+
+
+
+
+
+
+a:link.link2{
+display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/africa4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover.link2{
+ display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/africa3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:link.link3{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/hacker4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+a:hover.link3{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/hacker3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:link.link4{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/school4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover.link4{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/school3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:link.link5{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/direct4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover.link5{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/direct3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:link.link6{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/business4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover.link6{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/business3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:link.link7{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/africa4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover.link7{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/africa3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/*  ボタン開始  */
+
+.button-2 {
+  display: inline-block;
+  width: 500px;
+  height: 250px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 74px;
+  outline: none;
+}
+.button-2::before,
+.button-2::after {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  content: '';
+}
+.button-2,
+.button-2::before,
+.button-2::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+
+
+
+.button-2 {
+  position: relative;
+  z-index: 0;
+  background-color: #740700;
+  border: 2px solid #740700;
+  color: #fff;
+  line-height: 30px;
+}
+.button-2:hover {
+  background-color: #333;
+  border-color: #740700;
+  color: #fff;
+  text-decoration: none;
+}
+.button-2::before,
+.button-2::after {
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #740700;
+}
+.button-2::before {
+  right: 0;
+}
+.button-2::after {
+  left: 0;
+}
+.button-2:hover::before,
+.button-2:hover::after {
+  width: 0;
+  background-color: #740700;
+}
+
+
+
+/*  ボタン終わり  */
+ 
+.active-2 {
+  color: white;
+ /*  background: #740700;*/
+  border-radius: 4px 4px 4px 4px;
+  list-style:none;float: left;
+}
+
+.active-2 img{
+  margin: 50px 20px;
+  width: 150px;
+  height: 150px;
+  float: left;
+} 
+
+.active-2 h2 {
+  padding: -10px 0px;
+  font-size: 250%;
+}
+
+.active-2 p {
+  margin: 100px 20px 27px 65px;
+  font-size: 120%;
+}
+
+
+
+
+a:link.link8{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/sutatua4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover.link8{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/sutatua3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+a:link.link9{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/film4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover.link9{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/film3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+a:link.link10{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/kankyou4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover.link10{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/kankyou3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:link.link11{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/event4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover.link11{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/event3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:link.link12{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/touhoku4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover.link12{
+    display: block;
+    width: 25%;
+    height: 250px;
+    background-image: url("../images/touhoku3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:link.link13{
+    display: block;
+    width: 50%;
+    height: 250px;
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    background-color: #4E0904;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+.box-2 h1{
+font-size: 400%; 
+text-align: center;
+padding: 850px 0% 0% 0%;
+}
+
+.box-2 p{
+font-size: 180%; 
+text-align: center;
+padding: 0% 0% 2% 0%;
+line-height: 120%;
+}
+
+
+
+
+
+
+.box-3 {
+	padding: 10% 10% 0%;
+	background-color: #3d4351;
+}
+
+
+
+.box-3 h1{
+color: #ffffff;
+font-size: 200%; 
+float: left
+text-align: center;
+margin: -5% 0% 0% 0%;
+}
+
+.box-3 p{
+color: #ffffff;
+font-size: 90%; 
+float: left
+text-align: center;
+margin: 0% 0% 0% 2%;
+line-height: 120%;
+}
+
+.box-3 img{
+margin: -25% 0% 5% 60%;
+}
+
+
+
+
+
+
+.box-4 {
+	padding: 4% 10% 4%;
+	background-color: #ffffff;
+}
+
+
+
+.box-4 h1{
+font-size: 200%; 
+float: left
+text-align: center;
+margin: -23% 0% 0% 48%;
+}
+
+.box-4 p{
+font-size: 90%; 
+float: left
+text-align: center;
+margin: 0% 0% 0% 50%;
+line-height: 120%;
+}
+
+.box-4 img{
+margin: 0% 0% 0% 0%;
+}
 

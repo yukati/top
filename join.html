@@ -2,10 +2,29 @@
 <html lang="ja">
 <html lang="en">
   <head>
+    <title>私にできること</title>
+    <meta name="keywords" content="国際協力団体BWP,BWP,ボランティア,私にできること">
+    <meta name="description" content="国際協力団体BWPは関西を中心とするNPO学生団体。世界各国で起きている国際問題を解決するため発信活動、連携活動、現地支援などボランティアを中心に幅広い社会貢献活動を行う...">
     <meta charset="utf-8">
     <title>BWP JOIN</title>
     <meta name="description" content="bwp.join">  
     <link rel="stylesheet" href="styles/pc-join.css" type="text/css">  
+   <script type="text/javascript" src="confirm.js"></script>
+
+
+<script type="text/javascript">
+function ChangeTab(tabname) {
+   // タブメニュー実装
+   document.getElementById('tab1').style.display = 'none';
+   document.getElementById('tab2').style.display = 'none';
+   document.getElementById('tab3').style.display = 'none';
+   document.getElementById('tab4').style.display = 'none';
+
+   // タブメニュー実装
+   document.getElementById(tabname).style.display = 'block';
+}
+//</script>
+
   </head>
 <body>
 <div id="header">
@@ -28,60 +47,119 @@
 
 
 <div class="top-img">
-   <img src="images/図1.png" alt="グアテマラの子供達">
-   <h1>FIGHT TOGETHER</h1>
-   <p>共に戦おう</p>
+   <img src="images/join-top1.jpg" alt="FIGHT TOGETHER　共に戦おう">
 </div>
 
 
 
-
 <section id="section-vision-intro">
-  <h1>AAAAAAAAAAAAAAAA</h1>
-  <div class="active">
-    <h2>aaaaaaaa</h2>
-    <p>aaaaaa</p>
-  </div>
+  <h1>国際問題を共に解決に導こう</h1>
+    <p>国際協力団体BWPでは、一人ひとりに適した支援の方法を用意しています。<br>
+      幅広い支援方法を提供することで、より多くの人に国際問題を知り取り組むきっかけを作り上げたいと私たちは考えております。<br>
+      自分自信に合った支援方法で、国際問題の課題に取り組んでいきませんか？</p>
 </section>
 
 
 
 
-<section id="section-action">
-   <img src="images/donated.png" alt="寄付をする">
-   <h1>寄付をする</h1>
-   <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- タブメニュー実装　HTML文 -->
+ 
+<div class="tabbox">
+  <div class="tabbox-button"> 
+    <p class="tabs">
+      <a href="#tab1" class="tab1" onclick="ChangeTab('tab1'); return false;">
+        <img src="images/icon-gakusei2.png" width="100" height="100" alt="BWPボタン1"><br>学生</a>
+      <a href="#tab2" class="tab2" onclick="ChangeTab('tab2'); return false;">
+        <img src="images/icon-dantai2.png" width="100" height="100" alt="BWPボタン1"><br>団体</a>
+      <a href="#tab3" class="tab3" onclick="ChangeTab('tab3'); return false;">
+       <img src="images/icon-bussines2.png" width="100" height="100" alt="BWPボタン1"><br>企業</a>
+      <a href="#tab4" class="tab4" onclick="ChangeTab('tab4'); return false;">
+       <img src="images/icon-ippann2.png" width="100" height="100" alt="BWPボタン1"><br>
+一般</a>
+    </p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <div id="tab1" class="tab">
+    <!--　アイコンの画像完了していない　＋　CSSのカラー変更-->
+    <div class="selection-1">
+    <div class="icon-title-student">
+      <img>
+        <img border="1" src="images/icon-gakusei.png" width="150" height="150" alt="企業協力" title="企業にできる協力">
+          <h3>学生にできることは無限大</h3>
+          <p>自分の成長と共に世界の問題に取り組んでみませんか？<br>
+          国際ボランティアは、苦しんでいる現状を解決するとためにまだ成し遂げられていない
+          <br>国際問題の解決のため考え、協力し、解決に導くのが私たちの任務
+          </p>
+    </div>
+
+
+
+     <section id="section-action">
+       <img src="images/donated.png" alt="メンバーとして参加">
+        <h1>メンバーとして参加</h1>
+          <p>10プロジェクト以上存在する国際協力団体BWPに参加できます。
+            発信、協力、行動を軸に国際ボランティアから、ITから情報発信、幅広い企業や自治体と連携して国際協力に貢献できます。
+            自分の都合にあわせ活動が行えるようにカリュクラムを組んでいるので負担なく活動に参加できます。
+          </p>
 </section>  
 
 <section id="section-action">
-   <img src="images/donated.png" alt="寄付をする">
-   <h1>寄付をする</h1>
-   <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+   <img src="images/donated.png" alt="支部の立ち上げ">
+   <h1>支部の立ち上げ</h1>
+   <p>国際協力団体BWPは、京都の大学生を中心に活動を進めております。しかし国際協力に取り組む仲間を増やすため、2016年には大阪を中心とする関西に支部をひろげ、2017年には関東の支部も視野に入れて活動しております。</p>
 </section>
 
 <section id="section-action">
    <img src="images/donated.png" alt="寄付をする">
-   <h1>寄付をする</h1>
-   <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+   <h1>フリーランス</h1>
+   <p>幅広い活動を行う上で、場所、時間によって関われる範囲が限られます。メンバーとして活動にフルコミットせずとも、自分の都合、ペースにあわせ活動を組めるフリーランスがあります。自分の取り組んでみたい活動、身につく技術にあわせ自分で目標を設定し活動ができます。</p>
 </section>
 
 <section id="section-action">
    <img src="images/donated.png" alt="寄付をする">
-   <h1>寄付をする</h1>
-   <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+   <h1>広報サポーター</h1>
+   <p>国際協力団体BWPは、より多くの人に活動を知っていただくために、広報は必須活動だと考えております。広報サポーターになってくれることで、私たちの活動の広報、イベントの告知の協力をしていただきます。スマートフォン1代から協力可能。</p>
 </section>
-
+</div>
 
 
 
 <section id="section-contact">
   <h1>CONTACT</h1>
-  <div class="contact">
-    <h2>連絡を取る</h2>
-    <p>CONTACT</p>
-  </div>
+  <p>国際問題に関する質問、企画、連携など気軽に問い合わせください。</p>
+<center><iframe src="https://docs.google.com/forms/d/1rmnEHWyueZr8GGn3niAFAV3QBdHEzd1fv3C-szHXq-4/viewform?usp=send_form" width="760" height="1560" frameborder="0" marginheight="0" marginwidth="0">Loading...
+</iframe></center>
 </section>
-
+  
 
 
 
@@ -102,6 +180,310 @@
     <h3>bwp.worldpeace@gmail.com</h3>
   </div>
 </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+ 
+   <div id="tab2" class="tab">
+
+
+    <!--　アイコンの画像完了していない　＋　CSSのカラー変更-->
+    <div class="selection-2">
+      <div class="icon-title-student-2">
+        <img>
+        <img border="1" src="images/icon-dantai.png" width="150" height="150" alt="企業協力" title="企業にできる協力">
+        <h3>国際協力の最前線へ</h3>
+        <p>国際協力団体BWPの強みの一つは技術、人材、そして何よりも繋がりです。<br>
+          国際問題をいち早く解決していくため共に協力しあって、効率良く問題の解決につなげたいと思っております。
+          <br>同じ目標をもった仲間として協力できる環境を築きあげましょう。
+        </p>
+      </div>
+
+
+
+<section id="section-action-2">
+   <img src="images/donated.png" alt="寄付をする">
+   <h1>共同イベントの開催</h1>
+   <p>国際協力団体BWPは、国際協力団体、環境に取り組む団体、又は取り組まない団体問わず共同開催にこだわりを持っております。共に開催することによってお互いの強みを生かし、よりイベントを拡大、効率的なイベントの開催を実現します。</p>
+</section>  
+
+<section id="section-action-2">
+   <img src="images/donated.png" alt="寄付をする">
+   <h1>情報共有</h1>
+   <p>国際協力団体BWPは、政府、NPO法人、学生団体、海外国際協力団体問わず国際問題、国際協力に取り組む上で必要な情報を共有しております。国際問題を1秒でも早く解決に導くためより正確な情報を共有しあい共に解決に導きます。</p>
+</section>
+
+<section id="section-action-2">
+   <img src="images/donated.png" alt="寄付をする">
+   <h1>共同広報</h1>
+   <p>団体の規模により広報の限界はそれぞれあります。国際問題の解決のため同じ方向に向かう団体の広報協力は全面できに協力します。同時に広報協力をお願いしております。世界平和の実現のために一人でも多くの人に私たちの活動を伝えていきましょう。</p>
+</section>
+</div>
+
+<!-- 名前の変更編集必要-->
+
+<section id="section-contact">
+  <h1>CONTACT</h1>
+  <p>国際問題に関する質問、企画、連携など気軽に問い合わせください。</p>
+<center><iframe src="https://docs.google.com/forms/d/1rmnEHWyueZr8GGn3niAFAV3QBdHEzd1fv3C-szHXq-4/viewform?usp=send_form" width="760" height="1560" frameborder="0" marginheight="0" marginwidth="0">Loading...
+</iframe></center>
+</section>
+  
+
+
+
+<div id="footer">
+  <div class="footer-left">
+    <img src="images/LOGO.png">
+    <h1>国際協力団体BWP</h1>
+    <h2>LINK</h2>
+    <nav>
+      <a href="index.html">BWPトップ</a> <br>
+      <a href="about.html">イベント</a> <br>
+      <a href="about.html">京都観光</a> <br>
+      <a href="about.html">スタディーツアー</a> <br>
+      <a href="profile.html">メンバー紹介</a> <br>
+    </nav>
+  </div>
+  <div class="footer-right">
+    <h3>bwp.worldpeace@gmail.com</h3>
+  </div>
+</div>
+
+
+
+
+
+
+
+　 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+   <div id="tab3" class="tab">
+
+
+    <!--　アイコンの画像完了していない　＋　CSSのカラー変更-->
+    <div class="selection-3">
+      <div class="icon-title-student-3">
+        <img>
+        <img border="1" src="images/icon-bussines.png" width="150" height="150" alt="企業協力" title="企業にできる協力">
+        <h3>他団体とは一味ちがう学生団体と共に</h3>
+        <p>
+          企業にとってもメリットのある学生団体になるため日々研究、努力。<br>
+          どの団体にも負けない組織力、企画力、実行力の学生団体と共に社会貢献に協力をお願いしております。<br>
+        </p>
+      </div>
+
+
+      <section id="section-action-3">
+   <img src="images/donated.png" alt="寄付をする">
+   <h1>協賛</h1>
+   <p>団体の強みはそれぞれ違います。双方の強みを共有、または協賛していただくことによって実現したいものに効率良く実現することが可能です。</p>
+</section>  
+
+<section id="section-action-3">
+   <img src="images/donated.png" alt="寄付をする">
+   <h1>売上の1部を募金</h1>
+   <p>売上の一部を寄付することで各チームの取り組む活動のサポートを行えます。どのチームにどのような形で寄付を行うかは、スポンサー様と相談し決定します。例、学校建設活動の活動建設費用に寄付など。</p>
+</section>
+
+<section id="section-action-3">
+   <img src="images/donated.png" alt="寄付をする">
+   <h1>スポンサー</h1>
+   <p>国際協力団体BWPのスポンサーになっていただくことで
+    等団体の開催するイベント、講演会、製作するウエブ、映像などを通してスポンサーとして宣伝させていただきます。
+    関西の学生を中心にBWP活動を発信していきます。
+    </p>
+</section>
+
+<section id="section-action-3">
+   <img src="images/donated.png" alt="寄付をする">
+   <h1>技術協力</h1>
+   <p>私たちBWPは、国際ボランティアだけに留まらずITを通しての国際問題発信、現地ツアー開催、現地に必要物資を届け、自治体などとの連携イベントなど、資金援助だけでなく幅広い形での技術協力を募集しております。企業様の特徴にそって援助して頂けると幸いです。</p>
+</section>
+</div>
+
+
+<!-- 名前の変更編集必要-->
+
+<section id="section-contact">
+  <h1>CONTACT</h1>
+  <p>国際問題に関する質問、企画、連携など気軽に問い合わせください。</p>
+<center><iframe src="https://docs.google.com/forms/d/1rmnEHWyueZr8GGn3niAFAV3QBdHEzd1fv3C-szHXq-4/viewform?usp=send_form" width="760" height="1560" frameborder="0" marginheight="0" marginwidth="0">Loading...
+</iframe></center>
+</section>
+  
+
+
+
+<div id="footer">
+  <div class="footer-left">
+    <img src="images/LOGO.png">
+    <h1>国際協力団体BWP</h1>
+    <h2>LINK</h2>
+    <nav>
+      <a href="index.html">BWPトップ</a> <br>
+      <a href="about.html">イベント</a> <br>
+      <a href="about.html">京都観光</a> <br>
+      <a href="about.html">スタディーツアー</a> <br>
+      <a href="profile.html">メンバー紹介</a> <br>
+    </nav>
+  </div>
+  <div class="footer-right">
+    <h3>bwp.worldpeace@gmail.com</h3>
+  </div>
+</div>
+
+
+
+
+
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <div id="tab4" class="tab">
+
+
+    <!--　アイコンの画像完了していない　＋　CSSのカラー変更-->
+    <div class="selection-4">
+      <div class="icon-title-student-4">
+        <img>
+        <img border="1" src="images/icon-ippann.png" width="150" height="150" alt="企業協力" title="企業にできる協力">
+        <h3>国際協力へ　共に1歩づつ前進</h3>
+        <p>一人ひとりにできることは必ずあります<br>
+          国際協力団体BWPから国際問題にふれる第一歩を踏み出しませんか？
+          <br>また本気で問題に取り組んでいきたい方に適したプログラムも用意しております。
+        </p>
+      </div>
+
+
+      <section id="section-action-4">
+   <img src="images/donated.png" alt="寄付をする">
+   <h1>寄付</h1>
+   <p>私たち国際協力団体は、一口3000円からの寄付の呼び掛けをお願いしております。
+    幅広い国際問題の解決のため、学生が中心に日々活動します。寄付をいただくことに国内外問わずより幅広い活動に資金を使用します。
+   </p>
+</section>  
+
+<section id="section-action-4">
+   <img src="images/donated.png" alt="寄付をする">
+   <h1>BWPクラブに入会</h1>
+   <p>国際協力団体BWPは、学生を中心とする団体ですが、同時に規模を拡大し、より多くの人に支援だけでなく自分自信が国際協力に関わっていただくため一般としてクラブ会員を募集しております。</p>
+</section>
+
+<section id="section-action-4">
+   <img src="images/donated.png" alt="寄付をする">
+   <h1>募金</h1>
+   <p>私たちは、現地の支援を行うため、カンボジアの学校建設のため100万円の獲得、アフリカの元こども兵自立のため50万円の資金を集めています。現地の現状解決、自立できる環境を作り上げるためご協力のほど宜しくお願いします。
+   </p>
+</section>
+
+<section id="section-action-4">
+   <img src="images/donated.png" alt="寄付をする">
+   <h1>会員になる</h1>
+   <p>国際協力団体BWPの会員になることによって活動情報を定期的に。
+    月に複数開催されるイベントを無料にするどことか、
+    団体で開発される商品などが会員だけに手頃な価格で提供いたします。</p>
+</section>
+<section id="section-action-4">
+   <img src="images/donated.png" alt="寄付をする">
+   <h1>イベントに参加</h1>
+   <p>BWPは、幅広いイベントを月1回ペースで毎回開催されます。
+    イベントに参加することによって国際協力に貢献、また国際問題に深くしれるきっかけを作り上げていきます。ぜひ、気軽にご参加ください。</p>
+</section>
+</div>
+
+<!-- 名前の変更編集必要-->
+
+<section id="section-contact">
+  <h1>CONTACT</h1>
+  <center>
+    <p>国際問題に関する質問、企画、連携など気軽に問い合わせください。</p>
+  </center>
+ <center><iframe src="https://docs.google.com/forms/d/1rmnEHWyueZr8GGn3niAFAV3QBdHEzd1fv3C-szHXq-4/viewform?usp=send_form" width="760" height="1560" frameborder="0" marginheight="0" marginwidth="0">Loading...
+</iframe></center>
+</section>
+  
+
+
+
+<div id="footer">
+  <div class="footer-left">
+    <img src="images/LOGO.png">
+    <h1>国際協力団体BWP</h1>
+    <h2>LINK</h2>
+    <nav>
+      <a href="index.html">BWPトップ</a> <br>
+      <a href="about.html">イベント</a> <br>
+      <a href="about.html">京都観光</a> <br>
+      <a href="about.html">スタディーツアー</a> <br>
+      <a href="profile.html">メンバー紹介</a> <br>
+    </nav>
+  </div>
+  <div class="footer-right">
+    <h3>bwp.worldpeace@gmail.com</h3>
+  </div>
+</div>
+
+
+
+
+
+   </div>
+   
+   
+</div><!-- tabbox -->
+
+
+ 
+<!-- ページを開いた際の最初に表示されるタブの選択 -->
+<script type="text/javascript">
+   ChangeTab('tab1');
+</script>
+ 
+<!-- タブメニュー実装　HTML文 -->
+
+
+
+<!-- フォーム -->
+
 
 
 </body>
