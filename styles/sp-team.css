@@ -4,7 +4,7 @@
 @media screen and (max-width:640px){
 img{
 
-width /***/:auto;　
+width:12%;/***/height:100%;　
 }
 #container{
 width:100%;
@@ -30,19 +30,388 @@ a{ color: #247bb0; text-decoration: none;}
 a:hover{ color: #79b4d8;text-decoration:underline; }
 .clearfix{ clear: both; line-height: 0}
 
+.box h1{margin-bottom: 0;
+font-size: 150%; 
+text-align: center;
+padding: 0% 0% 0% 0%;
+}
+
+.box p{margin-top: -3%;
+font-size: 80%; 
+text-align: center;
+padding: 0% 0% 20% 0%;
+}
+
+a:link.link3{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/hacker4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+a:hover.link3{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/hacker3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+    a:link.link4{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/school4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover.link4{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/school3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:link.link5{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/direct4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover.link5{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/direct3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:link.link6{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/business4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover.link6{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/business3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:link.link7{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/africa4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover.link7{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/africa3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:link.link8{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/sutatua4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover.link8{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/sutatua3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+a:link.link9{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/film4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover.link9{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/film3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+a:link.link10{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/kankyou4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover.link10{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/kankyou3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:link.link11{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/event4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover.link11{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/event3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:link.link12{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/touhoku4.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover.link12{
+    display: block;
+    width: 50%;
+    height: 88px;
+    background-image: url("../images/touhoku3.png");
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:link.link13{
+    display: block;
+    width: 100%;
+    height: 40%;
+    text-indent: -10000px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    background-color: #4E0904;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.active-2 {
+  color: white;
+ /*  background: #740700;*/
+  border-radius: 4px 4px 4px 4px;
+  list-style:none;float: left;
+}
+
+.active-2 img{
+  margin: 50px 20px;
+  width: 50%;
+  height: 150px;
+  float: left;
+} 
+
+.active-2 h2 {
+  padding: -10px 0px;
+  font-size: 250%;
+}
+.active-2 p {
+  margin: -10px 10px 10px 10px;
+  font-size: 88%;
+  font-weight: bolder;
+}
+
+.box-2 h1{
+font-size: 155%; 
+text-align: center;
+padding: 600px 0% 0% 0%;
+}
+
+.box-2 p{
+font-size: 92%; 
+text-align: center;
+padding: 0% 0% 2% 0%;
+line-height: 120%;
+margin-top: -8%;
+}
+
+.box-3 {
+	padding: 10% 10% 0%;
+	background-color: #3d4351;
+}
+
+
+
+.box-3 h1{
+color: #ffffff;
+font-size: 150%; 
+float: left
+text-align: center;
+margin: -5% 0% 0% 0%;
+}
+
+.box-3 p{
+color: #ffffff;
+font-size: 88%; 
+float: left
+text-align: center;
+margin: 0% 0% 0% 2%;
+line-height: 120%;
+}
+
+.box-3 img{
+margin: 5% 0% 5% 10%;
+width: 80%;
+height: 80%;}
+
+.box-4 {
+	padding: 4% 10% 4%;
+	background-color: #ffffff;
+}
+
+
+
+.box-4 h1{
+font-size: 135%; 
+float: left
+text-align: center;
+margin: -36% -13% 0% 65%;
+}
+
+.box-4 p{
+font-size: 90%; 
+float: left
+text-align: center;
+margin: 10% 0% 0% 0%;
+line-height: 120%;
+}
+
+.box-4 img{
+margin: 0% 0% 0% -15%;
+width: 80%;
+height: 80%;
+}
+
 
 
  #header{
 background: rgba(51,51,51,0.5);
 position: fixed;
 z-index: 1;
+width: 100%;
 }
 
  #menu{
-height: 102px;
+height: 40px;
 margin:0px auto; /* 上下の margin は 0px、左右は auto に設定*/
-width:1349px;
-padding: 0px 0px 0px 314px;
+width:100%;
+padding: 0px 0px 0px 0px;
 }
 
 
@@ -74,19 +443,3 @@ left:  42%;
 width: 150px;
 color: white;
 }
-
-
-
-.box h1{margin-bottom: 0;
-font-size: 150%; 
-text-align: center;
-padding: 0% 0% 0% 0%;
-}
-
-.box p{margin-top: -3%;
-font-size: 100%; 
-text-align: center;
-padding: 0% 0% 20% 0%;
-}
-
-
